@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>app.e_commerce.com.common</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\app.e-commerce.com.model\app.e-commerce.com.model.csproj" />
+  </ItemGroup>
+
+</Project>

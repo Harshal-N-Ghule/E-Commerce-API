@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>app.e_commerce.com.service</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\app.e-commerce.com.common\app.e-commerce.com.common.csproj" />
+    <ProjectReference Include="..\app.e-commerce.com.model\app.e-commerce.com.model.csproj" />
+    <ProjectReference Include="..\app.e-commerce.com.repository\app.e-commerce.com.repository.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Contract\" />
+    <Folder Include="Interface\" />
+  </ItemGroup>
+
+</Project>
